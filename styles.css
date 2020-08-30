@@ -27,9 +27,9 @@ a:hover {
 .main-nav {
   width: 100%;
   background: linear-gradient(to left, rgb(0, 4, 40), rgb(0, 78, 146));
-  min-height: 20px;
-  padding: 5px;
-  position: fixed;
+  min-height: 30px;
+  padding: 10px;
+  position: flex;
   text-align: center;
 }
 .nav {
@@ -104,6 +104,10 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+
+
+
 .card:hover {
   border-color: #e42f45;
 }
@@ -157,9 +161,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
@@ -210,4 +212,18 @@ a.social:hover {
   }
 
 }
+
+/* resume.html */
+.education {
+  border-radius: 6px;
+  display: inline-block;
+  background: rgb(0, 78, 146);
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+  letter-spacing: 5px;
+}
+
+
+
 

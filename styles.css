@@ -7,15 +7,16 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90%;
   color: #222;
-  background: #f7f5f0;
+  background: #d3d4d8;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #d3d4d8;
 }
 a:hover {
   color: #6633ff;
@@ -25,16 +26,16 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
-  min-height: 30px;
-  padding: 10px;
+  background: linear-gradient(to left, rgb(0, 4, 40), rgb(0, 78, 146));
+  min-height: 20px;
+  padding: 5px;
   position: fixed;
   text-align: center;
 }
 .nav {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-weight: 50;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -44,20 +45,22 @@ a:hover {
     display: block;
     margin-right: auto;
     color: white;
+
 }
 .nav li {
   padding: 5px 10px 10px 10px;
+  letter-spacing: 1px;
 }
 .nav a {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #e42f45;
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/melbourne.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,17 +70,20 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 2px solid white;
   transition: all .5s;
+
+
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 .tag {
-  background-color: #efefef;
+  background-color: white;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -85,21 +91,21 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: white;
+  color: black;
 }
 .card {
-  margin: 30px;
+  margin: 25px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 350px;
   text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
+  background: #a7b3b7;
+  border-bottom: 4px solid #dee3e3;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #e42f45;
 }
 
 ul.skills {
@@ -110,14 +116,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: rgb(0, 78, 146);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: rgb(0, 4, 40);
 }
 
 footer {

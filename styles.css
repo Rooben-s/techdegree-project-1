@@ -14,7 +14,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #222;
-  background: #d3d4d8;
+  background: #72899c;
 }
 /* Link Styles */
 
@@ -24,15 +24,15 @@ a {
 }
 
 a:hover {
-  color: #e42f45;
+  color: #ca3435;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: linear-gradient(to left, rgb(0, 4, 40), rgb(0, 78, 146));
-  min-height: 30px;
+  background: #03162b;
+  min-height: 40px;
   padding: 10px;
   font-size: 16px;
   position: fixed;
@@ -68,7 +68,7 @@ a:hover {
 
 }
 .nav a:hover {
-  color:  #e42f45;
+  color: #ca3435;
 }
 
 .home-page {
@@ -123,7 +123,6 @@ header .profile-image {
 
 
 
-
 header .profile-image:hover {
   transform: scale(1) rotate(360deg);
 }
@@ -144,19 +143,28 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #a7b3b7;
-  border-bottom: 3px solid #dee3e3;
-  border-right: 3px solid #dee3e3;
-  border-left: 3px solid #dee3e3;
+  background: linear-gradient(to top, #72899c, #cdd5d5);
+  border-bottom: 1px solid #dee3e3;
+  border-right: 1px solid #dee3e3;
+  border-left: 1px solid #dee3e3;
+  border-top: 1px solid #dee3e3;
   border-radius: 6px;
   transition: all .5s;
 }
 
 
 
+.centre {
+  border-radius: 5px;
+  border-bottom: 1px solid #dee3e3;
+  border-right: 1px solid #dee3e3;
+  border-left: 1px solid #dee3e3;
+  border-top: 1px solid #dee3e3;
+
+}
 
 .card:hover {
-  border-color: #e42f45;
+  border-color: #ca3435;
 }
 
 
@@ -168,7 +176,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: rgb(0, 78, 146);
+  background: #2b4258;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -207,12 +215,14 @@ a.social {
   transition: all .5s;
 }
 
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
+a.linkedin {
+  background-image: url(images/linkedin.svg);
+}
+
 
 a.artstation {
   background-image: url(images/artstation.svg);

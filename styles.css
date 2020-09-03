@@ -149,24 +149,17 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #cdd5d5;
-  border-bottom: 1px solid #dee3e3;
-  border-right: 1px solid #dee3e3;
-  border-left: 1px solid #dee3e3;
-  border-top: 1px solid #dee3e3;
+  border-bottom: 3px solid #dee3e3;
+  border-right: 3px solid #dee3e3;
+  border-left: 3px solid #dee3e3;
+  border-top: 3px solid #dee3e3;
   border-radius: 6px;
   transition: all .5s;
 }
 
 
 
-.centre {
-  border-radius: 5px;
-  border-bottom: 1px solid #dee3e3;
-  border-right: 1px solid #dee3e3;
-  border-left: 1px solid #dee3e3;
-  border-top: 1px solid #dee3e3;
 
-}
 
 .card:hover {
   border-color: #ca3435;
@@ -216,7 +209,6 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  /* opacity: .6; */
   transition: all .5s;
 }
 
@@ -239,6 +231,42 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+
+
+
+
+
+
+/* Experience Page */
+
+
+
+
+
+
+
+
+
+
+/* Portfolio Page */
+
+.centre {
+  border-radius: 5px;
+  border-bottom: 2px solid #dee3e3;
+  border-right: 2px solid #dee3e3;
+  border-left: 2px solid #dee3e3;
+  border-top: 2px solid #dee3e3;
+}
+
+
+
+
+
+
+
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {

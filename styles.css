@@ -147,7 +147,7 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #cdd5d5;
   border-bottom: 3px solid #dee3e3;
   border-right: 3px solid #dee3e3;
@@ -155,6 +155,10 @@ header .profile-image:hover {
   border-top: 3px solid #dee3e3;
   border-radius: 6px;
   transition: all .5s;
+  /* display: inline-block;
+  position: relative;
+  margin: 1rem; */
+ 
 }
 
 
@@ -257,6 +261,13 @@ a.social:hover {
   border-right: 2px solid #dee3e3;
   border-left: 2px solid #dee3e3;
   border-top: 2px solid #dee3e3;
+
+
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.20), 10px 10px 10px 10px rgba(0, 0, 0, 0.30), 10px 10px 10px 10px rgba(0, 0, 0, 0.30), 10px 10px 10px 10px rgba(0, 0, 0, 0.30);
+  text-align: center;
+
+
+
 }
 
 
@@ -278,6 +289,7 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+  
   }
 
   header {

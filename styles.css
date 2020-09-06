@@ -155,15 +155,38 @@ header .profile-image:hover {
   border-top: 3px solid #dee3e3;
   border-radius: 6px;
   transition: all .5s;
-  /* display: inline-block;
-  position: relative;
-  margin: 1rem; */
- 
 }
 
 
 
 
+.portfolio-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #cdd5d5;
+  border-bottom: 3px solid #dee3e3;
+  border-right: 3px solid #dee3e3;
+  border-left: 3px solid #dee3e3;
+  border-top: 3px solid #dee3e3;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+
+
+
+
+
+
+
+
+
+/* span {
+  display: inline;
+
+} */
 
 .card:hover {
   border-color: #ca3435;
@@ -257,13 +280,13 @@ a.social:hover {
 
 .centre {
   border-radius: 5px;
-  border-bottom: 2px solid #dee3e3;
-  border-right: 2px solid #dee3e3;
-  border-left: 2px solid #dee3e3;
-  border-top: 2px solid #dee3e3;
+  border-bottom: 3px solid #dee3e3;
+  border-right: 3px solid #dee3e3;
+  border-left: 3px solid #dee3e3;
+  border-top: 3px solid #dee3e3;
 
 
-  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.20), 10px 10px 10px 10px rgba(0, 0, 0, 0.30), 10px 10px 10px 10px rgba(0, 0, 0, 0.30), 10px 10px 10px 10px rgba(0, 0, 0, 0.30);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.20), 4px 4px 4px 4px rgba(0, 0, 0, 0.30);
   text-align: center;
 
 
@@ -289,8 +312,12 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
-  
   }
+
+
+
+
+
 
   header {
     min-height: 470px;
@@ -298,7 +325,7 @@ a.social:hover {
 
   .nav {
     max-width: 1200px;
-    padding: 0 30px;
+    padding: 10px 30px;
   }
 
 
@@ -310,8 +337,11 @@ a.social:hover {
     line-height: 1.6em;
   }
 
+
+
+
   footer {
-    font-size: 1.3em;
+    font-size: 1.5 rem;
     max-width: 1200px;
     margin: 40px auto;
   }

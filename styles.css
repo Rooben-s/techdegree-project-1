@@ -149,6 +149,12 @@ header .profile-image:hover {
   border-color: #ca3435;
 }
 
+.portfolio-card:hover {
+  border-color: #ca3435;
+}
+
+
+
 ul.skills {
   padding: 0;
   text-align: center;

@@ -12,7 +12,7 @@ body {
   font-weight: 500;
   color: #222;
   background: #72899c;
-  border: 1px solid red;
+  
 }
 
 /* Link Styles */
@@ -35,7 +35,7 @@ a:hover {
   position: fixed;
   text-align: center;
   z-index: 1;
-  border: 1px solid red;
+  
 }
 
 .nav {
@@ -45,23 +45,23 @@ a:hover {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
-  border: 1px solid red;
+  
 }
 
 .nav .name {
     display: block;
     margin-right: auto;
     color: white;
-    border: 1px solid red;
+    
 }
 .nav li {
   padding: 5px 10px 10px 10px;
-  border: 1px solid red;
+  
 }
 
 .nav a {
   transition: all .5s;
-  border: 1px solid red;
+  
 
 }
 .nav a:hover {
@@ -81,7 +81,7 @@ a:hover {
   background-position: top center;
   background-size: cover;
   overflow: hidden;
-  border: 1px solid red;
+  
 } 
 
 .portfolio-page {
@@ -89,7 +89,7 @@ a:hover {
   background-position: top center;
   background-size: cover;
   overflow: hidden;
-  border: 1px solid red;
+  
 } 
 
 header .profile-image {
@@ -99,7 +99,7 @@ header .profile-image {
   border-radius: 50%;
   border: 2px solid white;
   transition: all .5s;
-  border: 1px solid red;
+  
 }
 
  .portfolio-image {
@@ -107,7 +107,7 @@ header .profile-image {
    background-size: cover;
    overflow: hidden;
    background-position: center;
-   border: 1px solid red;
+   b
  }
 
 header .profile-image:hover {
@@ -121,13 +121,13 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 20px auto;
-  border: 1px solid red;
+  
 }
 
 .location {
   background-color: #cdd5d5;
   color: black;
-  border: 1px solid red;
+  
 }
 
 .card {
@@ -142,7 +142,7 @@ header .profile-image:hover {
   border-top: 3px solid #dee3e3;
   border-radius: 6px;
   transition: all .5s;
-  border: 1px solid red;
+  
 }
 
 .portfolio-card {
@@ -157,7 +157,7 @@ header .profile-image:hover {
   border-top: 3px solid #dee3e3;
   border-radius: 6px;
   transition: all .5s;
-  border: 1px solid red;
+  
 }
 
 .card:hover {
@@ -173,7 +173,7 @@ header .profile-image:hover {
 ul.skills {
   padding: 5px;
   text-align: center;
-  border: 1px solid red;
+  
 }
 
 .skills li {
@@ -183,32 +183,32 @@ ul.skills {
   color: white;
   padding: 5px 10px;
   margin: 5px;
-  border: 1px solid red;
+  
 }
 
 footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
-  border: 1px solid red;
+  
 }
 
 footer .copyright {
   top: -8px;
   font-size: .75em;
-  border: 1px solid red;
+  
 }
 
 footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+  
 }
 
 footer ul li {
   display: inline-block;
-  border: 1px solid red;
+  
 }
 
 a.social {
@@ -219,7 +219,7 @@ a.social {
   height: 30px;
   background-size: 30px 30px;
   transition: all .5s;
-  border: 1px solid red;
+  
 }
 
 a.github {
@@ -247,7 +247,7 @@ a.social:hover {
   border-left: 3px solid #72899c;
   border-top: 3px solid #72899c;
   text-align: center;
-  border: 1px solid red;
+  
 }
 
 /* Styles for larger screens */
